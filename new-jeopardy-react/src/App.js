@@ -1,13 +1,14 @@
 import './App.css';
-import Header from './components/Header';
-import GameBoard from './components/GameBoard';
-import Topics from './components/Topics';
+import Header from './components/GameBoardLayout/Header';
+import GameBoard from './components/GameBoardLayout/GameBoard';
+import Topics from './components/GameBoardLayout/Topics';
 
 function App() {
   const rowAmount = "200";
   const secondRowAmount = "400";
   const thirdRowAmount = "600";
   const fourthRowAmount = "800";
+  const fifthRowAmount = "1000";
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +18,7 @@ function App() {
       <GameBoard amount={secondRowAmount}></GameBoard>
       <GameBoard amount={thirdRowAmount}></GameBoard>
       <GameBoard amount={fourthRowAmount}></GameBoard>
+      <GameBoard amount={fifthRowAmount}></GameBoard>
 
       </header>
     </div>
