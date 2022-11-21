@@ -1,11 +1,12 @@
 
-
+.App{
+  background-color: whitesmoke;
+}
 
 
 
 
 .App-header {
-  background-color:#232b2b;
   text-align: center;
   min-height: 900px;
 

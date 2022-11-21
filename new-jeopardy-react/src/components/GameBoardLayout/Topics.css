@@ -1,21 +1,23 @@
 
-.row-item{
+.row-item1{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding: 2px;
     height: 110px;
     width: 110px;
     background-image: linear-gradient(to bottom right, #1189dd, #9debff);
     margin: .5rem;
     border-radius: 5px;
-    border: groove whitesmoke 1px;
+    border: solid black 3px;
     box-shadow: 1px 1px 2px 3px whitesmoke;
-    font-weight: bold;
-    font-size: 3rem;
+    font-size: 25px;
+    font-weight: normal;
+    
     text-shadow: 1px 1px 1px white;
 }
 
-.Topics .row-item{
+.Topics .row-item1{
     font-size: 2rem;
 }

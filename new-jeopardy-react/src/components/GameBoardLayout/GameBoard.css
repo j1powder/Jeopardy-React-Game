@@ -11,11 +11,11 @@
     list-style: none;
     height: 110px;
     width: 110px;
-    background-image: linear-gradient(to bottom right, #1189dd, #9debff);
+    background-image: linear-gradient(to bottom right, blue, skyblue);
     margin: .5rem;
     border-radius: 5px;
     border: solid black 2px;
-    box-shadow: 2px 2px 4px 8px black;
+    box-shadow: 2px 2px 3px 4px grey;
     font-weight: bold;
     font-size: 3rem;
     text-shadow: 1px 1px 1px white;
