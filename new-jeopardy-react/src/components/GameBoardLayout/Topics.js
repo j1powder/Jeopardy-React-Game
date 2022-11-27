@@ -3,7 +3,7 @@ const Topics = () => {
     
     const Topics = [
         "History", "Math", "Science", "English"
-    ]
+    ];
 
 
     return(
