@@ -1,11 +1,13 @@
 
 const MathQuestions = [
 {
-    question: "What is 2+2?",
-    a: "4",
-    b: "5",
-    c: "6"
-    
+  question: <form> <label >What is 2 + 2?</label><br/><br/>
+    <label>4</label><input type="radio" /><br/>
+    <label>5 </label><input type="radio" /><br/>
+    <label>6 </label><input type="radio" /><br/>
+<br/><br/>
+</form>,
+
 },
 {
     question: "What is 3 * 5?",
@@ -14,4 +16,6 @@ const MathQuestions = [
     c: "40" 
 }
 
-]
+];
+
+export default MathQuestions;

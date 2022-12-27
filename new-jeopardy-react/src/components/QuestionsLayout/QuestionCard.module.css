@@ -1,0 +1,60 @@
+.ModalSection{
+    background-color: blue;
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+    height:auto;
+    min-height: 300px;
+    max-height: 600px;
+    border-radius: 5px;
+    border: black 3px solid;
+    display: block;
+    margin: 0 auto;
+  
+}
+.qcontent{
+    color: white;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.modalbtn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid #1189dd;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+.modalbtn:hover {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid #1189dd;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.modalbtn:active {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid #1189dd;
+    border-radius: 5px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+}

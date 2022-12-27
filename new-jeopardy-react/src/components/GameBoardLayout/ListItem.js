@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import './GameBoard.css';
+import NewContext from "../StateStorage/new-context";
 
 const ListItem = (props) => {
-
-
+const ctx = useContext(NewContext);
 
     return (
-        <li className="row-item">{props.text}</li>
+        <li className="row-item" onClick={ctx.onModalChange}>{props.text}</li>
     );
 }
 

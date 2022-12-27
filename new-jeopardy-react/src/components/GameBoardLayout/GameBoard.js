@@ -4,6 +4,8 @@ import ListItem from './ListItem';
 //import QuestionCard from '../QuestionsLayout/QuestionCard';
 
 const GameBoard = (props) => {
+
+
     const Props = [
         {property: ""},
         {property: ""},
@@ -12,12 +14,14 @@ const GameBoard = (props) => {
     ];
 
  const createListItem = (prop) => {
-    return <ListItem text={props.amount} />
+    return <ListItem showModal={props.onShowModal} text={props.amount} />
  }
  
+
  return (
             <div className="top-row">
                 <ul className="row">
+
                     {Props.map(createListItem)}
                 </ul>
             </div>

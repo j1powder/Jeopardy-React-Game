@@ -7,7 +7,8 @@ const Topics = () => {
 
 
     return(
-    <div className="Topics">
+
+<div className="Topics">
     <ul className="row">
         <li className="row-item1">{Topics[0]}</li>
         <li className="row-item1">{Topics[1]}</li>
@@ -15,6 +16,7 @@ const Topics = () => {
         <li className="row-item1">{Topics[3]}</li>
     </ul>
 </div>
+
     )
 }
 
